@@ -31,9 +31,9 @@ function curriedAdd(a) {
  При третьому виклику остання функція приймає третій аргумент c і повертає суму a + b + c.
 */
 
-// export { curriedAdd }
+// export { curriedAdd } ?
 
-function curriedAdd(a) {
+function curriedAdd (a) {
   return function (b) {
     return function (c) {
       return a + b + c;
